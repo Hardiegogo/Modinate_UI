@@ -1,0 +1,232 @@
+
+
+/* Typography ---------------------------------*/
+
+html{
+    font-size: 62.5%;
+}
+
+h1,.large-text{
+    font-size: 4.8rem;
+    line-height: 6.4rem;
+}
+
+h2,.medium-text{
+    font-size: 3.2rem;
+    line-height: 4rem;
+}
+
+h3,.small-text{
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+}
+
+h4,.x-small-text{
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+
+h5,.xx-small-text{
+    font-size: 8px;
+    line-height: 1.6rem;
+}
+
+.light{
+    font-weight: 300;
+}
+
+.regular{
+    font-weight: 300;
+}
+
+.semibold{
+    font-weight: 600;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.black{
+    font-weight: 900;
+}
+
+
+.br-s{
+    border-radius: 5px;
+}
+
+.br-m{
+    border-radius: 10px;
+}
+
+.br-l{
+    border-radius: 15px;
+}
+
+.br-full{
+    border-radius: 999px;
+}
+
+/* colors ---------------------------- */
+
+:root{
+    --primary-color:#FC7A57;
+    --dark-primary:#E86643;
+
+
+    --grey:#9A9A9A;
+    --dark-grey:#868686;
+    --lynx-grey:#C5C5C5;
+    --black-shade:#1E1E24;
+    --bg-color-white:#FFF8F0;
+    --pure-white:white;
+}
+
+/* spacing------------------------------------- */
+
+.p-8px{
+    padding:8px;
+}
+
+.p-16{
+    padding: 1.6rem;
+}
+
+.p-24{
+    padding:2.4rem;
+}
+
+.p-32{
+    padding: 3.2rem;
+}
+
+.p-40{
+    padding:4rem;
+}
+
+.p-64{
+    padding:6.4rem;
+}
+
+/* Margin ----------------------------------------------- */
+.m-8px{
+    margin:8px;
+}
+
+.m-16{
+    margin: 1.6rem;
+}
+
+.m-24{
+    margin:2.4rem;
+}
+
+.m-32{
+    margin: 3.2rem;
+}
+
+.m-40{
+    margin:4rem;
+}
+
+.m-64{
+    margin:6.4rem;
+}
+
+
+.mb-1{
+    margin-bottom: 1rem;
+}
+.mb-16{
+    margin-bottom: 1.6rem;
+}
+
+.mb-24{
+    margin-bottom:2.4rem;
+}
+
+.mb-32{
+    margin-bottom: 3.2rem;
+}
+
+.mb-40{
+    margin-bottom:4rem;
+}
+
+.mb-64{
+    margin-bottom:6.4rem;
+}
+
+
+.ml-1{
+    margin-left: 1rem;
+}
+.ml-16{
+    margin-left: 1.6rem;
+}
+
+.ml-24{
+    margin-left:2.4rem;
+}
+
+.ml-32{
+    margin-left: 3.2rem;
+}
+
+.ml-40{
+    margin-left:4rem;
+}
+
+.ml-64{
+    margin-left:6.4rem;
+}
+
+
+.mt-1{
+    margin-top: 1rem;
+}
+.mt-16{
+    margin-top: 1.6rem;
+}
+
+.mt-24{
+    margin-top:2.4rem;
+}
+
+.mt-32{
+    margin-top: 3.2rem;
+}
+
+.mt-40{
+    margin-top:4rem;
+}
+
+.mt-64{
+    margin-top:6.4rem;
+}
+
+.mr-1{
+    margin-right: 1rem;
+}
+.mr-16{
+    margin-right: 1.6rem;
+}
+
+.mr-24{
+    margin-right:2.4rem;
+}
+
+.mr-32{
+    margin-right: 3.2rem;
+}
+
+.mr-40{
+    margin-right:4rem;
+}
+
+.mr-64{
+    margin-right:6.4rem;
+}
+
+
