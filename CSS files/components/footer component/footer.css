@@ -1,0 +1,19 @@
+footer{
+    background-color: var(--primary-color);
+    color: var(--bg-color-white);
+    width: 100%;
+    display: grid;
+    place-items: center;
+    padding: 2rem 0;
+    
+}
+
+footer ul{
+    padding: 0;
+}
+
+.footer-icons{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+} 

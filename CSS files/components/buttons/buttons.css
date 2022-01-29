@@ -1,0 +1,36 @@
+
+.btn{
+    padding:0.8rem 1.2rem;
+    border-radius: .8rem;
+    border:none;
+    cursor: pointer;
+}
+
+.btn-large{
+    padding:8px 1.4rem;
+    border-radius: 15px;
+    border:none;
+    cursor: pointer;
+}
+
+.btn-primary{
+    background-color: var(--primary-color);
+    color: var(--bg-color-white);
+}
+
+.btn-primary:hover{
+    background-color: var(--dark-primary);
+    color: white;
+
+}
+
+.btn-secondary{
+    background-color: var(--grey);
+    color: var(--pure-white);
+
+}
+
+.btn-secondary:hover{
+    background-color: var(--dark-grey);
+
+}
