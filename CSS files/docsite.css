@@ -1,0 +1,77 @@
+@import "style-guide.css";
+@import "./components/navbar/navbar.css";
+@import "./components/buttons/buttons.css";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+   font-family: 'Montserrat', sans-serif; 
+   background-color: var(--bg-color-white);
+   color:var(--black-shade)
+}
+
+.app{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-areas: 
+    'navbar navbar navbar navbar'
+    'sidebar content content content'
+    'footer footer footer footer';
+}
+
+a{
+    text-decoration: none;
+    color: var(--black-shade);
+}
+
+.navbar{
+    grid-area: navbar;
+    box-shadow: 10px 12px 12px -8px rgba(222,222,222,1);
+}
+
+.sidebar{
+    grid-area: sidebar;
+    
+    /* box-shadow: 10px 12px 12px -8px rgba(222,222,222,1); */
+
+    
+}
+
+.sidebar-list{
+    list-style: none;
+}
+
+.sidebar-list-item{
+    padding: 1rem;
+
+}
+
+.sidebar-list-item:hover,.sidebar-list-item:focus{
+    
+    font-weight: 600;
+    background-color: #EBE4DC;
+}
+
+
+
+
+
+
+
+
+
+
+
+.content{
+    grid-area:content;
+}
+
+.footer{
+    grid-area: footer;
+}
