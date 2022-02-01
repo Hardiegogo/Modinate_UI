@@ -15,7 +15,7 @@
     <div class="app">
         <header class='navbar' >
             <div class="header-left">
-                <h3>Modinate UI</h3>
+                <a href="./index.html"><h3>Modinate UI</h3></a>
             </div>
             <div class="header-right">
                 <nav>
@@ -43,39 +43,238 @@
             </div>                                  
         </header>
         <aside class="sidebar p-40">
-            <div class="sidebar-heading">
-                <h3>Components</h3>
+            <div class="sidebar-container">
+                <div class="sidebar-heading">
+                    <h3>Components</h3>
+                </div>
+                <ul class="sidebar-list">
+                  
+                    <li class="sidebar-list-item x-small-text mt-16">
+                        <a class='sidebar-list-item' href="#buttons">Buttons</a>
+                    </li>
+                    <li class="sidebar-list-item x-small-text">
+                        <a  class='sidebar-list-item'href="">Cards</a>
+                    </li>
+                    <li class="sidebar-list-item x-small-text">
+                        <a  class='sidebar-list-item'href="">Alerts</a>
+                    </li>
+                    <li class="sidebar-list-item x-small-text">
+                        <a  class='sidebar-list-item'href="">Avatars</a>
+                    </li>
+                    <li class="sidebar-list-item x-small-text">
+                        <a  class='sidebar-list-item'href="">Badges</a>
+                    </li>
+                    <li class="sidebar-list-item x-small-text">
+                        <a  class='sidebar-list-item'href="">Image</a>
+                    </li>
+                    <li class="sidebar-list-item x-small-text">
+                        <a  class='sidebar-list-item'href="">Input</a>
+                    </li>
+                    
+                </ul>
+
             </div>
-            <ul class="sidebar-list">
-              
-                <li class="sidebar-list-item x-small-text mt-16">
-                    <a class='sidebar-list-item' href="">Buttons</a>
-                </li>
-                <li class="sidebar-list-item x-small-text">
-                    <a  class='sidebar-list-item'href="">Cards</a>
-                </li>
-                <li class="sidebar-list-item x-small-text">
-                    <a  class='sidebar-list-item'href="">Alerts</a>
-                </li>
-                <li class="sidebar-list-item x-small-text">
-                    <a  class='sidebar-list-item'href="">Avatars</a>
-                </li>
-                <li class="sidebar-list-item x-small-text">
-                    <a  class='sidebar-list-item'href="">Badges</a>
-                </li>
-                <li class="sidebar-list-item x-small-text">
-                    <a  class='sidebar-list-item'href="">Image</a>
-                </li>
-                <li class="sidebar-list-item x-small-text">
-                    <a  class='sidebar-list-item'href="">Input</a>
-                </li>
-                
-            </ul>
+            
         </aside>
         <main class="content">
+            <section class="component-section-wrapper p-40 " id='buttons'>
+                <h3>Buttons</h3>
+                <p class='x-small-text mt-24'>Buttons are also known as call to actions. Buttons are used in web applications to perform some kind of action. Buttons are one of the ways through which users interact with the applications.</p>
+                <div class="primary-btns">
+                    <p class="small-text mt-24"><span class='primary'>Primary</span>-buttons</p>
+                <p class='x-small-text mt-24'>Primary buttons are very important in every applications. These buttons should be used when we want the user to pay attention and click it.</p>
+                
+                <div class="component-wrapper p-16 br-m mt-24">
+                    <!-- Primary large button  -->
+                    <a class='btn-large btn-primary  m-8px'>Large cta</a>
+                    <!-- primary small button -->
+                    <a class='btn btn-primary m-8px'>small cta</a>
+                    <!-- primary large button with outlines -->
+                    <a class='btn-large btn-primary-outline m-8px'>Large cta</a>
+                    <!-- primary small button with outlines -->
+                    <a class='btn btn-primary-outline m-8px'>small cta</a>
+                    <!-- Primary disabled button  -->
+                    <a class='btn btn-primary-disabled m-8px' disabled>small cta</a>
+
+                </div>
+                <p class="small-text mt-24">Usage and code-snippet</p>
+                <p class='x-small-text mt-24'>To use the above shown buttons : You just have to copy the code snippet below and paste it in your html file. Some of the styles here are :<br> </p>
+                <ul class='x-small-text p-16 grid-list'>
+                    <li>Primary large cta</li>
+                    <li>Primary small cta</li>
+                    <li>Primary large outlined button</li>
+                    <li>Primary small outlined button</li>
+                    <li>Disabled button</li>
+               
+                    
+                </ul>
+              
+
+                <div class="mt-24">
+                    <code>
+                        <iframe class="code-snippet"
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=css&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=47px&ph=30px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520Primary%2520large%2520button%2520%2520--%253E%250A%253Ca%2520class%253D%27btn-large%2520btn-primary%27%253ELarge%2520cta%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%21--%2520primary%2520small%2520button%2520--%253E%250A%253Ca%2520class%253D%27btn%2520btn-primary%27%253Esmall%2520cta%253C%252Fa%253E%250A%2520%2520%250A%253C%21--%2520primary%2520large%2520button%2520with%2520outlines%2520--%253E%250A%253Ca%2520class%253D%27btn-large%2520btn-primary-outline%27%253ELarge%2520cta%253C%252Fa%253E%250A%2520%2520%250A%253C%21--%2520primary%2520small%2520button%2520with%2520outlines%2520--%253E%250A%253Ca%2520class%253D%27btn%2520btn-primary-outline%27%253Esmall%2520cta%253C%252Fa%253E%250A%2520%2520%250A%253C%21--%2520Primary%2520disabled%2520button%2520%2520--%253E%250A%253Ca%2520class%253D%27btn%2520btn-primary-disabled%27%2520disabled%253Esmall%2520cta%253C%252Fa%253E%2509%2509"
+                        style=" border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </code>
+
+                </div>
+                
+                </div>
+
+                <div class="secondary-btns mt-64">
+                    <p class="small-text mt-40">Secondary-buttons</p>
+                <p class='x-small-text mt-24'>Secondary buttons are used when we do not want the user to pay much attention to these buttons or the action performed by clicking on these buttons.</p>
+                
+                <div class="component-wrapper p-16 br-m mt-24">
+                    <!-- Secondary large button  -->
+                    <a class='btn-large btn-secondary m-8px'>Large cta</a>
+                    <!-- Secondary small button -->
+                    <a class='btn btn-secondary  m-8px'>small cta</a>
+                    <!-- Secondary large button with outlines -->
+                    <a class='btn-large btn-secondary-outline  m-8px'>Large cta</a>
+                    <!-- Secondary small button with outlines -->
+                    <a class='btn btn-secondary-outline m-8px'>small cta</a>
+                    <!-- Secondary disabled button  -->
+                    <a class='btn btn-secondary-disabled  m-8px' disabled>small cta</a>
+                    
+                </div>
+                <p class="small-text mt-24">Usage and code-snippet</p>
+                <p class='x-small-text mt-24'>To use the above shown buttons : You just have to copy the code snippet below and paste it in your html file. Some of the styles here are :<br> </p>
+                <ul class='x-small-text p-16 grid-list'>
+                    <li>Secondary large cta</li>
+                    <li>Secondary small cta</li>
+                    <li>Secondary large outlined button</li>
+                    <li>Secondary small outlined button</li>
+                    <li>Secondary disabled button</li>
+   
+                    
+                </ul>
+              
+
+                <div class="mt-24">
+                    <code>
+                        <iframe class='code-snippet'
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=css&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=47px&ph=30px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520Secondary%2520large%2520button%2520%2520--%253E%250A%253Ca%2520class%253D%27btn-large%2520btn-secondary%27%253ELarge%2520cta%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%21--%2520Secondary%2520small%2520button%2520--%253E%250A%253Ca%2520class%253D%27btn%2520btn-secondary%27%253Esmall%2520cta%253C%252Fa%253E%250A%2520%2520%250A%253C%21--%2520Secondary%2520large%2520button%2520with%2520outlines%2520--%253E%250A%253Ca%2520class%253D%27btn-large%2520btn-secondary-outline%27%253ELarge%2520cta%253C%252Fa%253E%250A%2520%2520%250A%253C%21--%2520Secondary%2520small%2520button%2520with%2520outlines%2520--%253E%250A%253Ca%2520class%253D%27btn%2520btn-secondary-outline%27%253Esmall%2520cta%253C%252Fa%253E%250A%2520%2520%250A%253C%21--%2520Secondary%2520disabled%2520button%2520%2520--%253E%250A%253Ca%2520class%253D%27btn%2520btn-secondary-disabled%27%2520disabled%253Esmall%2520cta%253C%252Fa%253E%2509"
+                            style=" border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                    </code>
+
+                </div>
+                
+                </div>
+                <div class="icon-btns mt-64">
+                    <p class="small-text mt-40">Icon-buttons</p>
+                <p class='x-small-text mt-24'>These are the icon buttons which you can use in your application.You can use icons from boxicons as buttons by applying the following classes.</p>
+                
+                <div class="component-wrapper p-16 br-m mt-24">
+                    <!-- Primary icon button  -->
+                    <a class="btn-icon-primary"><i class='bx bxs-cart '></i></a>
+                    <!-- Secondary icon button  -->
+                    <a class="btn-icon-secondary"><i class='bx bxs-cart '></i></a>
+                    
+                    
+                </div>
+                <p class="small-text mt-24">Usage and code-snippet</p>
+                <p class='x-small-text mt-24'>To use the above shown buttons : You just have to copy the code snippet below and paste it in your html file. Some of the styles here are :<br> </p>
+                <ul class='x-small-text p-16'>
+                    <li>Primary icon cta</li>
+                    <li>Secondary icon cta</li>
+                    
+   
+                    
+                </ul>
+              
+
+                <div class="mt-24">
+                    <code>
+                        <iframe class='code-snippet'
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=css&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=47px&ph=30px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520Primary%2520icon%2520button%2520%2520--%253E%250A%253Ca%2520class%253D%2522btn-icon-primary%2522%253E%253Ci%2520class%253D%27bx%2520bxs-cart%2520%27%253E%253C%252Fi%253E%253C%252Fa%253E%250A%250A%253C%21--%2520Secondary%2520icon%2520button%2520%2520--%253E%250A%253Ca%2520class%253D%2522btn-icon-secondary%2522%253E%253Ci%2520class%253D%27bx%2520bxs-cart%2520%27%253E%253C%252Fi%253E%253C%252Fa%253E%2509"
+                        style=" border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </code>
+
+                </div>
+                
+                </div>
+                <div class="Link-btns mt-64">
+                    <p class="small-text mt-40">Links</p>
+                <p class='x-small-text mt-24'>These are the clickable links that you can use in your applications</p>
+                
+                <div class="component-wrapper p-16 br-m mt-24">
+                    <!-- Primary link-->
+                    <a class="primary-link p-16">Primary link</a>
+                    <!-- Secondary link -->
+                    <a class="secondary-link">Secondary link</a>
+                    
+                    
+                </div>
+                <p class="small-text mt-24">Usage and code-snippet</p>
+                <p class='x-small-text mt-24'>To use the above shown buttons : You just have to copy the code snippet below and paste it in your html file. Some of the styles here are :<br> </p>
+                <ul class='x-small-text p-16'>
+                    <li>Primary link</li>
+                    <li>Secondary link</li>
+                    
+   
+                    
+                </ul>
+              
+
+                <div class="mt-24">
+                    <code>
+                        <iframe class="code-snippet"
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=css&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=47px&ph=30px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520Primary%2520link--%253E%250A%253Ca%2520class%253D%2522primary-link%2522%253EPrimary%2520link%253C%252Fa%253E%250A%250A%253C%21--%2520Secondary%2520link%2520--%253E%250A%253Ca%2520class%253D%2522secondary-link%2522%253ESecondary%2520link%253C%252Fa%253E"
+                        style=" border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </code>
+
+                </div>
+                
+                </div>
+                <div class="floating-btns mt-64">
+                    <p class="small-text mt-40">Floating action button</p>
+                <p class='x-small-text mt-24'>These are the examples of some floating action buttons that you can use in your applications.You can use icons from boxicons inside these buttons.</p>
+                
+                <div class="component-wrapper p-16 br-m mt-24">
+                    <!-- Primary floating action -->
+                    <a class="btn-floating-primary"><i class='bx bx-plus'></i></a>
+                    <!-- Secondary floating action -->
+                    <a class="btn-floating-secondary "><i class='bx bx-minus' ></i></a>
+                    
+                    
+                </div>
+                <p class="small-text mt-24">Usage and code-snippet</p>
+                <p class='x-small-text mt-24'>To use the above shown buttons : You just have to copy the code snippet below and paste it in your html file. Some of the styles here are :<br> </p>
+                <ul class='x-small-text p-16'>
+                    <li>Primary floating action button</li>
+                    <li>Secondary floating action button</li>
+                    
+   
+                    
+                </ul>
+              
+
+                <div class="mt-24">
+                    <code>
+                        <iframe class='code-snippet'
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=css&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=47px&ph=30px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520Primary%2520floating%2520action%2520--%253E%250A%253Ca%2520class%253D%2522btn-floating-primary%2520bottom-right%2522%253E%253Ci%2520class%253D%27bx%2520bx-plus%27%253E%253C%252Fi%253E%253C%252Fa%253E%250A%250A%253C%21--%2520Secondary%2520floating%2520action%2520--%253E%250A%253Ca%2520class%253D%2522btn-floating-secondary%2520bottom-right%2522%253E%253Ci%2520class%253D%27bx%2520bx-minus%27%253E%253C%252Fi%253E%253C%252Fa%253E"
+                        style=" border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </code>
+
+                </div>
+                
+                </div>
+            </section>
 
         </main>
         <footer class="footer">
+           
 
         </footer>
     </div>

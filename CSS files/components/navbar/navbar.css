@@ -12,6 +12,10 @@
 
 .header-left {
     margin-left: 2rem;
+
+}
+.header-left a{
+    color:var(--pure-white)
 }
 
 .header-right{

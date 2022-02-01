@@ -4,6 +4,10 @@
 
 html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
 }
 
 h1,.large-text{
@@ -27,7 +31,7 @@ h4,.x-small-text{
 }
 
 h5,.xx-small-text{
-    font-size: 8px;
+    font-size: 1.2rem;
     line-height: 1.6rem;
 }
 
@@ -80,6 +84,7 @@ h5,.xx-small-text{
     --lynx-grey:#C5C5C5;
     --black-shade:#1E1E24;
     --bg-color-white:#FFF8F0;
+    --dark-bg-shade:#EBE4DC;
     --pure-white:white;
 }
 
