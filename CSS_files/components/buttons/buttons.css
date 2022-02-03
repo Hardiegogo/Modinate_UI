@@ -51,14 +51,14 @@
     color: var(--dark-primary);
 }
 
-.primary-link{
+.link-primary{
     color: var(--primary-color);
     text-decoration: underline 2px var(--primary-color);
     font-size: 1.6rem;
     cursor: pointer;
 }
 
-.primary-link:hover{
+.link-primary:hover{
     color: var(--dark-primary);
     text-decoration-color:var(--dark-primary) ;
 }
@@ -126,14 +126,14 @@
     color: var(--dark-grey);
 }
 
-.secondary-link{
+.link-secondary{
     color: var(--grey);
     text-decoration: underline 2px var(--grey);
     font-size: 1.6rem;
     cursor: pointer;
 }
 
-.secondary-link:hover{
+.link-secondary:hover{
     color: var(--dark-grey);
     text-decoration-color:var(--dark-grey) ;
 }
