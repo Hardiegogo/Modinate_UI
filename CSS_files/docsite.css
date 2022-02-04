@@ -1,6 +1,10 @@
 @import "style-guide.css";
 @import "./components/navbar/navbar.css";
 @import "./components/buttons/buttons.css";
+@import "./components/alerts/alerts.css";
+@import "./components/badges/badges.css";
+@import "./components/avatar/avatar.css";
+@import "./components/image/image.css";
 
 *,
 *::before,
@@ -77,7 +81,7 @@ body{
     align-items: center;
     justify-content: center;
     background-color: #EBE4DC;
-    gap: 8px;
+    gap: 1rem;
 }
 
 .code-snippet{

@@ -1,0 +1,26 @@
+.alert{
+    padding: 1.6rem 2.4rem;
+    font-size: 1.4rem;
+    border-radius: 6px;
+    text-align: left;
+    width: 100%;
+}
+
+.alert-primary{
+    background: #93C5FD;
+    color: #2563EB;
+}
+
+.alert-error{
+    background: #FCA5A5;
+    color: #DC2626;
+}
+.alert-success{
+    background: #6EE7B7;
+    color: #059669;
+}
+
+.alert-warning{
+    background: #FCD34D;
+    color: #D97706;
+}
