@@ -1,0 +1,58 @@
+
+ .badge-wrapper{
+     position: relative;
+
+ }
+
+ .badge-wrapper > i{
+     font-size: 3rem;
+     color: var(--black-shade);
+ }
+ 
+ .badge{
+     display: grid;
+     place-items: center;
+     position: absolute;
+     color: white;
+     border-radius: 50%;
+ }
+ 
+
+ 
+ .btn-badge{
+     background-color: var(--primary-color);
+     font-size: 1.2rem;
+     width:2.5rem;
+     height: 2.5rem;
+     padding: 4px;
+     font-weight: bold;  
+     top:-1.2rem;
+     right:-1.4rem;
+     
+ 
+ }
+ 
+ .btn-badge-left{
+     left:-1rem;
+ }
+
+ .badge-status{
+     width: 1.2rem;
+     height: 1.2rem;
+     bottom: 0rem;
+     right: 3px;
+     border:1px solid white;
+ }
+ 
+ .status-online{
+    background-color: #34d399;
+ }
+
+ .status-offline{
+     background-color: var(--lynx-grey);
+ }
+
+ .status-busy{
+     background-color: #ef4444;
+ }
+ 
