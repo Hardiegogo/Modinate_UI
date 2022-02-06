@@ -4,7 +4,7 @@
    object-fit: contain; 
 }
 
-.img-circle{
+.round-img{
     border-radius: 50%;
     object-fit: cover;
 }
