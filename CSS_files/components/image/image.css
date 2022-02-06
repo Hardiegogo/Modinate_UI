@@ -1,8 +1,20 @@
-img{
+.resp-img{
    width: 100%;
+   height: auto;
    object-fit: contain; 
 }
 
-.img-circle{
-    border-radius: 999px;
+.round-img{
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.img-md{
+    width: 10rem;
+    height: 10rem;
+}
+
+.img-lg{
+    width: 15rem;
+    height: 15rem;
 }
