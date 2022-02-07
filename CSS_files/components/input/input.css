@@ -1,0 +1,46 @@
+.input{
+    padding: .8rem 1rem;
+    border: none;
+    border-radius: 10px;
+}
+
+.input-primary:focus,.text-area:focus{
+    outline-color:var(--primary-color) ;
+}
+
+
+.input-error{
+    border:1px solid #FCA5A5;
+
+}
+
+.input-error:focus{
+    outline-color:#DC2626;
+}
+.input-success{
+    border:1px solid #6EE7B7;
+}
+
+.input-success:focus{
+    outline-color:#059669 ;
+}
+
+.incorrect-input{
+    color:#DC2626;
+    margin-left:2px;
+    font-size: 1.2rem;
+}
+
+.input-disabled{
+    background-color: var(--lynx-grey);
+    cursor:  not-allowed;
+}
+
+.text-area{
+    width: 100%;
+    min-height: 10rem;
+    height: auto;
+    border-radius: 10px;
+    border: none;
+    resize: none;
+}
