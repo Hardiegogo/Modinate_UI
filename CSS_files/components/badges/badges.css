@@ -14,7 +14,7 @@
      place-items: center;
      position: absolute;
      color: white;
-     border-radius: 50%;
+   
  }
  
 
@@ -28,6 +28,7 @@
      font-weight: bold;  
      top:-1.2rem;
      right:-1.4rem;
+     border-radius: 50%;
      
  
  }
@@ -42,6 +43,7 @@
      bottom: 8px;
      right: -1px;
      border:1px solid white;
+     border-radius: 50%;
  }
  
  .status-online{
@@ -56,3 +58,24 @@
      background-color: #ef4444;
  }
  
+
+ .card-badge{
+     background-color: var(--primary-color);
+     padding: .5rem 1rem;
+     border-radius: 0 5px 5px 0;
+     box-shadow: 3px 1px 8px var(--black-shade);
+     top:1rem;
+
+ }
+
+ .card-dismiss{
+    top: 1rem;
+    right:5px;
+    
+
+ }
+
+ .card-dismiss i{
+    font-size: 1.8rem;
+    color: var(--lynx-grey);
+ }

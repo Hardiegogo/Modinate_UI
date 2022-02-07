@@ -1,0 +1,121 @@
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.card img{
+ 
+    object-fit: cover;
+    max-height: 20rem;
+}
+
+.card-content:hover{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    
+}
+.card{
+    display:flex;
+    flex-direction: column;
+    width: 25rem;
+    background-color: var(--pure-white);
+    border-radius: 10px;
+}
+
+.card-img-top-br{
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.card-heading,.card-text{
+    padding: .8rem 1rem;
+}
+
+.card-text:hover{
+    background-color: whitesmoke;
+}
+
+
+.card-footer{
+    display:flex;
+    padding: .5rem .8rem;
+    margin-top: none;
+
+}
+
+.card-footer i{
+    font-size: 1.8rem;
+    padding: 6px;
+    border-radius: 50%;
+}
+.card-footer i:hover{
+    background-color: whitesmoke;
+}
+
+.btn-card{
+    color:var(--primary-color);
+    background-color: white;
+}
+
+.btn-card:hover{
+    background-color: whitesmoke;
+    color: var(--dark-primary);
+    padding:8px 1rem;
+}
+
+.head-top{
+    order:-1;
+}
+
+.display-none{
+    display: none;
+
+}
+
+.horizontal .card-content{
+    display: grid;
+    grid-template-columns: 50% 1fr;
+} 
+
+.text-on-media{
+ margin-top:-5.2rem;
+ z-index: 5;
+ color: white;
+}
+
+.text-on-media h2{color: white;}
+
+.card-with-overlay{
+  opacity: 0.6;
+  position: relative;
+}
+
+.overlay-text-container{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.overlay-text{
+    background-color: var(--lynx-grey);
+    padding: 1rem;
+    z-index: 2;
+
+}
+.card-text-only{
+    padding: 1rem;
+}
+
+.card-text-only:hover{
+    border-radius: 10px;
+    background-color: whitesmoke;   
+}
+
+.card-shadow{
+    box-shadow: 0px 0px 6px 0px var(--grey);
+}
