@@ -8,10 +8,6 @@
     outline-color:var(--primary-color) ;
 }
 
-/* .input-primary{
-    background: #93C5FD;
-    color: #2563EB;
-} */
 
 .input-error{
     border:1px solid #FCA5A5;
