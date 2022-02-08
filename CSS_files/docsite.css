@@ -93,13 +93,15 @@ body{
     height: 20rem;
 }
 
-.inputs-component-wrapper{
+.columns-component-wrapper{
     flex-direction: column;
     justify-content: start;
     align-items: start;
 }
 
-
+.container-width-full{
+    width: 100%;
+}
 
 
 

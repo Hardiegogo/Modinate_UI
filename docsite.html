@@ -74,6 +74,13 @@
                     <li class="sidebar-list-item x-small-text">
                         <a class='sidebar-list-item' href="#inputs">Input</a>
                     </li>
+                    <li class="sidebar-list-item x-small-text">
+                        <a class='sidebar-list-item' href="#text-utils">Typography</a>
+                    </li>
+                    <li class="sidebar-list-item x-small-text">
+                        <a class='sidebar-list-item' href="#navigation">Navigation</a>
+                    </li>
+
 
                 </ul>
 
@@ -860,7 +867,7 @@
                 </p>
 
 
-                <div class="component-wrapper p-16 br-m mt-24 inputs-component-wrapper">
+                <div class="component-wrapper p-16 br-m mt-24 columns-component-wrapper">
 
                     <h3>Normal Inputs</h3>
                     <!-- normal inputs------------------------ -->
@@ -919,10 +926,170 @@
                 <div class="mt-24">
                     <code>
                         <iframe class="code-snippet"
-  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=47px&ph=30px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520normal%2520inputs------------------------%2520--%253E%250A%253Clabel%2520for%253D%2522username%2522%253E%250A%2520%2520%2520%253Ch4%253EUsername%253A%253C%252Fh4%253E%250A%2520%2520%2520%253Cinput%2520class%253D%2522input%2520input-primary%2522%2520id%253D%2522username%2522%2520type%253D%2522text%2522%253E%250A%253C%252Flabel%253E%250A%250A%253Clabel%2520for%253D%2522user-password%2522%253E%250A%2520%2520%2520%253Ch4%253EPassword%253A%253C%252Fh4%253E%250A%2520%2520%2520%253Cinput%2520class%253D%2522input%2520input-primary%2522%2520id%253D%2522user-password%2522%2520type%253D%2522password%2522%253E%250A%253C%252Flabel%253E%250A%250A%253C%21--%2520Text%2520area------------------------%2520--%253E%250A%253Ctextarea%2520class%253D%2522text-area%2522%253E%253C%252Ftextarea%253E%250A%250A%253C%21--%2520Styled-inputs-------------------------%2520--%253E%250A%253Clabel%2520for%253D%2522%2522%253E%250A%2520%2520%2520%253Ch4%253ECorrect%2520data%253A%253C%252Fh4%253E%250A%2520%2520%2520%253Cinput%2520class%253D%2522input%2520input-success%2522%2520id%253D%2522%2522%2520type%253D%2522text%2522%253E%250A%253C%252Flabel%253E%250A%250A%253Cdiv%2520class%253D%2522error-container%2522%253E%250A%2520%2520%2520%253Clabel%2520for%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch4%253EIncorrect%2520data%253A%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input%2520input-error%2522%2520id%253D%2522%2522%2520type%253D%2522text%2522%253E%250A%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522incorrect-input%2522%253E%250A%2520%2520%2520%2520%2520%2520Incorrect%2520value%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Clabel%2520for%253D%2522%2522%253E%250A%2520%2520%2520%253Ch4%253EDisabled%2520input%253A%253C%252Fh4%253E%250A%2520%2520%2520%253Cinput%2520class%253D%2522input%2520input-disabled%2522%2520id%253D%2522%2522%2520type%253D%2522text%2522%2520disabled%253E%250A%253C%252Flabel%253E"
-  style="border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=47px&ph=30px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520normal%2520inputs------------------------%2520--%253E%250A%253Clabel%2520for%253D%2522username%2522%253E%250A%2520%2520%2520%253Ch4%253EUsername%253A%253C%252Fh4%253E%250A%2520%2520%2520%253Cinput%2520class%253D%2522input%2520input-primary%2522%2520id%253D%2522username%2522%2520type%253D%2522text%2522%253E%250A%253C%252Flabel%253E%250A%250A%253Clabel%2520for%253D%2522user-password%2522%253E%250A%2520%2520%2520%253Ch4%253EPassword%253A%253C%252Fh4%253E%250A%2520%2520%2520%253Cinput%2520class%253D%2522input%2520input-primary%2522%2520id%253D%2522user-password%2522%2520type%253D%2522password%2522%253E%250A%253C%252Flabel%253E%250A%250A%253C%21--%2520Text%2520area------------------------%2520--%253E%250A%253Ctextarea%2520class%253D%2522text-area%2522%253E%253C%252Ftextarea%253E%250A%250A%253C%21--%2520Styled-inputs-------------------------%2520--%253E%250A%253Clabel%2520for%253D%2522%2522%253E%250A%2520%2520%2520%253Ch4%253ECorrect%2520data%253A%253C%252Fh4%253E%250A%2520%2520%2520%253Cinput%2520class%253D%2522input%2520input-success%2522%2520id%253D%2522%2522%2520type%253D%2522text%2522%253E%250A%253C%252Flabel%253E%250A%250A%253Cdiv%2520class%253D%2522error-container%2522%253E%250A%2520%2520%2520%253Clabel%2520for%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch4%253EIncorrect%2520data%253A%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input%2520input-error%2522%2520id%253D%2522%2522%2520type%253D%2522text%2522%253E%250A%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522incorrect-input%2522%253E%250A%2520%2520%2520%2520%2520%2520Incorrect%2520value%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Clabel%2520for%253D%2522%2522%253E%250A%2520%2520%2520%253Ch4%253EDisabled%2520input%253A%253C%252Fh4%253E%250A%2520%2520%2520%253Cinput%2520class%253D%2522input%2520input-disabled%2522%2520id%253D%2522%2522%2520type%253D%2522text%2522%2520disabled%253E%250A%253C%252Flabel%253E"
+                            style="border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </code>
+
+                </div>
+
+            </section>
+
+            <!-- Text-utilities---------------------------------------------- -->
+
+            <section class="component-section-wrapper p-40 " id='text-utils'>
+                <h3>Text-utilities</h3>
+                <p class='x-small-text mt-24'>Text-utilities are basically building blocks of any web application.Using
+                    same text-utils throughout the project makes your project look consistent.</p>
+
+                <p class="small-text mt-24">Headings</p>
+                <div class="component-wrapper p-16 br-m mt-24 columns-component-wrapper">
+                    <h1 class="h1">Heading 1</h1>
+                    <h2 class="h2">Heading 2</h2>
+                    <h3 class="h3">Heading 3</h3>
+                    <h4 class="h4">Heading 4</h4>
+                    <h5 class="h5">Heading 5</h5>
+
+                </div>
+
+                <p class="small-text mt-24">Usage and code-snippet</p>
+                <p class='x-small-text mt-24'>To use the above shown headings : you can directly use h1,h2,h3,h4,h5 tags
+                    or you can use the classes .h1,.h2,.h3,.h4,.h5 in your html.</p>
+
+
+                <div class="mt-24">
+                    <code>
+                        <iframe class="code-snippet"
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=47px&ph=30px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch1%2520class%253D%2522h1%2522%253EHeading%25201%253C%252Fh1%253E%250A%253Ch2%2520class%253D%2522h2%2522%253EHeading%25202%253C%252Fh2%253E%250A%253Ch3%2520class%253D%2522h3%2522%253EHeading%25203%253C%252Fh3%253E%250A%253Ch4%2520class%253D%2522h4%2522%253EHeading%25204%253C%252Fh4%253E%250A%253Ch5%2520class%253D%2522h5%2522%253EHeading%25205%253C%252Fh5%253E"
+                            style="border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </code>
+
+                </div>
+
+                <p class="small-text mt-24">Paragraph text with different sizes</p>
+                <div class="component-wrapper p-16 br-m mt-24 columns-component-wrapper">
+                    <p class="large-text">Large text</p>
+                    <p class="medium-text">Medium text</p>
+                    <p class="small-text">Small text</p>
+                    <p class="x-small-text">Extra small text</p>
+                    <p class="xx-small-text">Extra extra small text</p>
+
+                </div>
+
+                <p class="small-text mt-24">Usage and code-snippet</p>
+                <p class='x-small-text mt-24'>To use the above shown paragraph text :You just have to copy the code
+                    snippet
+                    below and paste it in your html file. Some of the styles here are :<br> </p>
+                <ul class='x-small-text p-16'>
+                    <li>Large text</li>
+                    <li>Medium text</li>
+                    <li>Small text</li>
+                    <li>Extra small text</li>
+                    <li>Extra Extra small text</li>
+                </ul>
+
+
+
+                <div class="mt-24">
+                    <code>
+                        <iframe class="code-snippet"
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=320&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=47px&ph=30px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522large-text%2522%253ELarge%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522medium-text%2522%2520%253EMedium%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522small-text%2522%253ESmall%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522x-small-text%2522%253EExtra%2520small%2520text%253C%252Fp%253E%250A%253Cp%2520class%253D%2522xx-small-text%2522%253EExtra%2520extra%2520small%2520text%253C%252Fp%253E%250A%2520"
+                            style="border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </code>
+
+                </div>
+
+                <p class="small-text mt-24">Gray text and center text</p>
+                <div class="component-wrapper p-16 br-m mt-24 columns-component-wrapper">
+                    <p class="medium-text grey-text">Medium text</p>
+
+                    <div class="container-width-full">
+                        <p class="medium-text center-text">Medium text(centered)</p>
+                    </div>
+
+
+
+                </div>
+
+                <p class="small-text mt-24">Usage and code-snippet</p>
+                <p class='x-small-text mt-24'>To use the above shown variations: You just have to copy the code snippet
+                    below and paste it in your html file.</p>
+
+
+
+
+                <div class="mt-24">
+                    <code>
+                        <iframe class="code-snippet"
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=320&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=47px&ph=30px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522medium-text%2520grey-text%2522%2520%253EMedium%2520text%253C%252Fp%253E%250A%250A%253Cdiv%2520class%253D%2522container-width-full%2522%253E%250A%2509%253Cp%2520class%253D%2522medium-text%2520center-text%2522%2520%253EMedium%2520text%28centered%29%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+                            style="border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </code>
+
+                </div>
+
+            </section>
+
+            <!-- Navigation ------------------------------- -->
+
+            <section class="component-section-wrapper p-40 " id='navigation'>
+                <h3>Navigation</h3>
+                <p class='x-small-text mt-24'>Navigation bar helps the user to move to different parts of a web
+                    applicaton.</p>
+
+
+                <div class="component-wrapper p-16 br-m mt-24">
+                    <header class='navbar'>
+                        <div class="header-left">
+                            <a>
+                                <h3>Modinate Web</h3>
+                            </a>
+                        </div>
+                        <div class="header-right">
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a href="https://twitter.com/Chirag__dev">
+                                            <i class='bx bxl-twitter social-icons'></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/Hardiegogo/Modinate_UI">
+                                            <i class='bx bxl-github social-icons'></i>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/chirag-dev/">
+                                            <i class='bx bxl-linkedin social-icons'></i>
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </nav>
+
+                        </div>
+                    </header>
+                </div>
+
+                <p class="small-text mt-24">Usage and code-snippet</p>
+                <p class='x-small-text mt-24'>To use the above shown navbar: You just have to copy the code snippet
+                    below and paste it in your html file. </p>
+
+
+                <div class="mt-24">
+                    <code>
+                        <iframe class="code-snippet"
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=320&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=47px&ph=30px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cheader%2520class%253D%27navbar%27%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522header-left%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EModinate%2520Web%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522header-right%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cnav%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522https%253A%252F%252Ftwitter.com%252FChirag__dev%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%27bx%2520bxl-twitter%2520social-icons%27%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522https%253A%252F%252Fgithub.com%252FHardiegogo%252FModinate_UI%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%27bx%2520bxl-github%2520social-icons%27%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522https%253A%252F%252Fwww.linkedin.com%252Fin%252Fchirag-dev%252F%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%27bx%2520bxl-linkedin%2520social-icons%27%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fnav%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fheader%253E"
+                            style="border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
                     </code>
 
                 </div>
