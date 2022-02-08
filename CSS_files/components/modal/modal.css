@@ -1,0 +1,26 @@
+.modal-component{
+    background-color: whitesmoke;
+    padding: 2rem;
+
+}
+
+.modal{
+    background-color: white;
+    min-width: 20rem;
+    width: 30rem;
+    padding: 1.6rem;   
+    
+}
+
+.modal-footer{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+.modal-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
