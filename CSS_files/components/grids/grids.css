@@ -1,13 +1,13 @@
 .grid-2{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1rem;
+    gap: var(--sm-space);
 }
 
 .grid-3{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 1rem;
+    gap: var(--sm-space);
 }
 
 
@@ -22,5 +22,5 @@
 .grid-auto-fit{
     display: grid;
     grid-template-columns: repeat( auto-fit, minmax(25rem, 1fr) );
-    gap:1rem;
+    gap:var(--sm-space);
 }
