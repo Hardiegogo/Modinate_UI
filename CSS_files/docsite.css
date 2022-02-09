@@ -9,6 +9,9 @@
 @import "./components/input/input.css";
 @import "./components/modal/modal.css";
 @import "./components/rating/rating.css";
+@import "./components/snackbar/snackbar.css";
+@import "./components/lists/lists.css";
+@import "./components/grids/grids.css";
 
 *,
 *::before,
@@ -100,6 +103,7 @@ body{
     flex-direction: column;
     justify-content: start;
     align-items: start;
+    width: 100%;
 }
 
 .container-width-full{

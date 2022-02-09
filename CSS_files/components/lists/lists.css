@@ -1,0 +1,37 @@
+.list-container{
+    width: 100%;
+}
+
+.spaced-list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-around;
+    width: 100%;
+    background-color: var(--pure-white);
+}
+
+.stacked-list{
+    list-style: none;
+    background-color: var(--pure-white);
+    width: fit-content;
+}
+
+.list-item{
+    font-size: 1.6rem;
+    padding: 1.5rem 3rem;
+    cursor: pointer;
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+
+.spaced-list-item:hover,.stacked-list-item:hover{
+    background-color: whitesmoke;
+}
+
