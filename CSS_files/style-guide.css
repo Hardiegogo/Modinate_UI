@@ -105,7 +105,9 @@ h5,.xx-small-text,.h5{
 .p-8px{
     padding:8px;
 }
-
+.p-1{
+    padding: 1rem;
+}
 .p-16{
     padding: 1.6rem;
 }
@@ -246,4 +248,7 @@ h5,.xx-small-text,.h5{
     margin-right:6.4rem;
 }
 
+button{
+    all:unset;
+}
 
