@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 @import "style-guide.css";
 @import "./components/navbar/navbar.css";
 @import "./components/buttons/buttons.css";
@@ -9,6 +10,9 @@
 @import "./components/input/input.css";
 @import "./components/modal/modal.css";
 @import "./components/rating/rating.css";
+=======
+@import "./styles.css";
+>>>>>>> Stashed changes
 
 *,
 *::before,
