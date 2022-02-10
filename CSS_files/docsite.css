@@ -1,18 +1,4 @@
-
-@import "style-guide.css";
-@import "./components/navbar/navbar.css";
-@import "./components/buttons/buttons.css";
-@import "./components/alerts/alerts.css";
-@import "./components/badges/badges.css";
-@import "./components/avatar/avatar.css";
-@import "./components/image/image.css";
-@import "./components/cards/cards.css";
-@import "./components/input/input.css";
-@import "./components/modal/modal.css";
-@import "./components/snackbar/snackbar.css";
-@import "./components/lists/lists.css";
-@import "./components/grids/grids.css";
-@import "./components/rating/rating.css";
+@import "./styles.css";
 
 
 *,
@@ -21,9 +7,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-button{
-    all:unset;
 }
 
 .grid-list{
@@ -46,10 +29,6 @@ body{
     'footer footer footer footer';
 }
 
-.primary{
-    color:var(--primary-color)
-}
-
 
 
 .navbar{
@@ -57,31 +36,7 @@ body{
     box-shadow: 10px 12px 12px -8px rgba(222,222,222,1);
 }
 
-.sidebar{
-    grid-area: sidebar;
-}
-.sidebar-container{
-    position: sticky;
-    top:2rem;
-}
 
-
-.sidebar-list{
-    list-style: none;
-    
-}
-
-.sidebar-list-item{
-    padding: 1rem;
-    color: var(--black-shade);
-
-}
-
-.sidebar-list-item:hover,.sidebar-list-item:focus{
-    
-    font-weight: 600;
-    background-color: #EBE4DC;
-}
 
 /* main */
 
@@ -121,6 +76,11 @@ body{
 
 .footer{
     grid-area: footer;
+    background-color: var(--primary-color);
+    color: var(--pure-white);
+    padding:var(--lg-space);
+    display: grid;
+    place-items: center;
 }
 
 @media screen and (max-width:600px) {
@@ -132,6 +92,10 @@ body{
         'content'
         'footer';
 
+    }
+
+    .hide{
+        display: none;
     }
     .content{
         width: 100%;
