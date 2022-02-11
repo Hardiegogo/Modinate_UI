@@ -88,9 +88,9 @@ h5,.xx-small-text,.h5{
     --dark-bg-shade:#EBE4DC;
     --pure-white:white;
 
-    --sm-space:1rem;
-    --md-space:2rem;
-    --lg-space:3rem;
+    --sm-space:1.2rem;
+    --md-space:2.4rem;
+    --lg-space:3.2rem;
 }
 
 /* spacing------------------------------------- */
