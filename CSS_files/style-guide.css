@@ -249,6 +249,7 @@ h5,.xx-small-text,.h5{
 }
 
 button{
-    all:unset;
+    border: none;
+    background-color: transparent;
 }
 
