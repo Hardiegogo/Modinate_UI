@@ -68,14 +68,14 @@
 
  }
 
- .card-dismiss{
+ .card-top-right-icon{
     top: 1rem;
     right:5px;
-    
-
  }
 
- .card-dismiss i{
+ 
+
+ .card-dismiss-i{
     font-size: 1.8rem;
     color: var(--lynx-grey);
  }
