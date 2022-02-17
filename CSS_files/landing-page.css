@@ -49,6 +49,13 @@ img{
     object-fit: contain;
 }
 
+.btn-container__home-page{
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 @media screen and (max-width:480px) {
     html{
         font-size: 50%;
